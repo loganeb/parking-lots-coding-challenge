@@ -20,7 +20,14 @@ This project has two components: a Flask app that provides a single endpoint and
     `source venv/bin/activate`
 
     `pip install -r requirements.txt`
-3. Start the Flask server: `python app.py`
+3. Create a file named `config.json` in the `server/` directory
+4. Add the Yelp API key to `config.json` in this format:
+    ```
+    {
+        "api_key":"<API KEY>"
+    }
+    ```
+5. Start the Flask server: `python app.py`
 
 ### Running the UI
 
