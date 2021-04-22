@@ -41,7 +41,7 @@ export default class SearchBar extends React.Component{
                             <th>Address</th>
                             <th>Star Rating</th>
                             <th>Review Count</th>
-                            <th>Score</th>
+                            <th>Link</th>
                             <th>Image</th>
                         </tr>
                         {this.state.results.map(result => {
